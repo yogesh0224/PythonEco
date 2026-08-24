@@ -26,3 +26,13 @@
 
 # write a program that takes input of two numbers from user 
 # and classify if their sum is 50 or not.
+
+a = int(input("take first number:"))
+b = int(input("take second number:"))
+
+sum = a+b
+
+if  49<sum<51:
+    print("yes the sum is 50")
+else:
+    print("no the sum is not 50")
